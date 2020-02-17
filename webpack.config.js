@@ -1,3 +1,4 @@
+  
 const webpack = require('webpack');
 const { resolve } = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -51,12 +52,11 @@ module.exports = {
             "react",
           ],
           plugins: [
-            "react-hot-loader/babel",
-            "styled-jsx/babel"
+            "react-hot-loader/babel"
           ]
         }
       }
-    ]
+    ],
   },
 
   plugins: [
